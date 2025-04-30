@@ -1,0 +1,74 @@
+\documentclass[12pt]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[brazil]{babel}
+\usepackage{graphicx}
+\usepackage{geometry}
+\usepackage{setspace}
+\usepackage{times}
+\usepackage{anyfontsize}
+\usepackage{parskip} % espaçamento entre parágrafos
+
+\geometry{a4paper, top=2.5cm, bottom=2.5cm, left=3cm, right=3cm}
+
+\begin{document}
+
+% ----------- CAPA -----------
+\begin{titlepage}
+    \thispagestyle{empty}
+    
+    \begin{center}
+        \includegraphics[width=0.35\textwidth]{Sem título.png} \\[1.5cm]
+        
+        CENTRO UNIVERSITÁRIO DO PLANALTO DE ARAXÁ\\
+        CENTRO UNIVERSITÁRIO EM ARAXÁ\\
+        SISTEMAS DE INFORMAÇÃO
+    \end{center}
+    
+    \vspace*{4cm}
+    
+    \begin{center}
+        \textbf{Sprint 2 Orion I.A}
+    \end{center}
+    
+    \vspace*{4cm}
+    
+    \begin{flushright}
+        {\fontsize{8pt}{10pt}\selectfont Gustavo, Mayck, Wyner, Maria}
+    \end{flushright}
+    
+    \vfill
+    
+    \begin{center}
+        ARAXÁ - MG\\
+        2025
+    \end{center}
+\end{titlepage}
+
+% ----------- CONTEÚDO -----------
+
+\newpage
+
+\noindent\textbf{1. Introdução}
+
+O projeto Orion I.A está sendo desenvolvido com o objetivo de criar uma inteligência artificial no formato de um chatbot que possa auxiliar clientes de supermercados na obtenção de informações rápidas sobre produtos. A ideia central é permitir que o usuário consulte, por meio de um chat, o nome do produto, o preço e a sua localização dentro do estabelecimento, incluindo o corredor e a prateleira onde o item se encontra.
+
+\vspace{1em}
+
+\noindent\textbf{2. Desenvolvimento}
+
+A inteligência artificial está sendo construída utilizando a linguagem Python, enquanto os dados dos produtos estão armazenados em um banco de dados MySQL. A aplicação está sendo projetada para funcionar diretamente em nosso site, oferecendo uma interface prática para o usuário realizar suas consultas de forma rápida e eficiente.
+
+\vspace{1em}
+
+\noindent\textbf{3. Resolução}
+
+Apesar do progresso em diversas áreas do projeto, estamos enfrentando dificuldades na implementação da inteligência artificial em Python. A falta de experiência com integração entre o chatbot e a base de dados tem sido um dos maiores desafios. Isso tem causado atrasos no cronograma planejado, exigindo maior dedicação e pesquisa por parte da equipe para superar os obstáculos técnicos.
+
+\vspace{1em}
+
+\noindent\textbf{4. Conclusão}
+
+Mesmo com os desafios encontrados, conseguimos avançar significativamente no desenvolvimento do site e da estrutura do banco de dados. A interface já está quase finalizada, e o banco de dados encontra-se funcional com as informações dos produtos. A equipe segue trabalhando na finalização da inteligência artificial, com expectativa de conclusão nas próximas etapas.
+
+\end{document}
